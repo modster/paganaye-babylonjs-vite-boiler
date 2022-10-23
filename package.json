@@ -1,6 +1,6 @@
 {
-  "name": "friends",
-  "version": "0.0.0",
+  "name": "paganaye-babylonjs-vite-boiler",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite --open",
     "build": "tsc && vite build",
