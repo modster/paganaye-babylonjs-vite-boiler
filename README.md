@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a [BabylonJS](https://babylonjs.com) & [Vite](https://vite.com) minimal boilerplate with [Typescript](https://typescript.com) support.
+This is a minimalist boilerplate for development with BabylonJS, Typescript, Vite, and it is deployed with an Actions workflow to GitHub Pages.
 
 ## Getting Started:
 
