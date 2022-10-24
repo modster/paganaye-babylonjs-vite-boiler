@@ -11,7 +11,7 @@ export class AppOne {
     this.scene = createScene(this.engine, this.canvas);
   }
 
-  debug(debugOn: boolean = false) {
+  debug(debugOn: boolean = true) {
     if (debugOn) {
       this.scene.debugLayer.show({ overlay: true });
     } else {
@@ -67,7 +67,15 @@ var createScene = function (engine: BABYLON.Engine, canvas: HTMLCanvasElement) {
   sphere.position.y = 1;
 
   // Our built-in 'ground' shape.
+<<<<<<< HEAD
   // var ground = BABYLON.MeshBuilder.CreateGround("ground", { width: 6, height: 6 }, scene);
+=======
+  var ground = BABYLON.MeshBuilder.CreateGround(
+    'ground',
+    { width: 6, height: 6 },
+    scene,
+  );
+>>>>>>> greeffer
 
   return scene;
 };
