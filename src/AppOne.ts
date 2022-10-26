@@ -67,15 +67,11 @@ var createScene = function (engine: BABYLON.Engine, canvas: HTMLCanvasElement) {
   sphere.position.y = 1;
 
   // Our built-in 'ground' shape.
-<<<<<<< HEAD
-  // var ground = BABYLON.MeshBuilder.CreateGround("ground", { width: 6, height: 6 }, scene);
-=======
   var ground = BABYLON.MeshBuilder.CreateGround(
     'ground',
     { width: 6, height: 6 },
     scene,
   );
->>>>>>> greeffer
 
   return scene;
 };
